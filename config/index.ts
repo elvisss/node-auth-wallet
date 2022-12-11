@@ -11,4 +11,5 @@ export const config = {
   dbMysqlPort: Number(process.env.DB_MYSQL_PORT) || 3306,
   dbMysqlUser: process.env.DB_MYSQL_USER || '',
   dbMysqlPassword: process.env.DB_MYSQL_PASSWORD || '',
+  jwtSecretKey: process.env.JWT_SECRET_KEY || ''
 }
